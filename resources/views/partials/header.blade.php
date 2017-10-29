@@ -16,7 +16,6 @@
                         <li><a href="#header">Home</a></li>
                         <li><a href="#video">Video</a></li>
                         <li><a href="#story">Story</a></li>
-                        <li><a href="#footer">Footer</a></li>
                         <li><a href="#gallery">Log in</a></li>
 
                     </ul>
