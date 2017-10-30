@@ -7,6 +7,7 @@
         <body data-spy="scroll" data-target="#navbar" data-offset="120" >
 
             @include('partials.header')
+            @include('partials.loginModal')
             @yield('content')
             @include('partials.footer')
 

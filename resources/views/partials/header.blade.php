@@ -16,7 +16,7 @@
                         <li><a href="#header">Home</a></li>
                         <li><a href="#video">Video</a></li>
                         <li><a href="#story">Story</a></li>
-                        <li><a href="#gallery">Log in</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">Log in</a></li>
 
                     </ul>
                 </div><!--/.navbar-collapse -->
