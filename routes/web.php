@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('/home');
 });
+
+Route::get('/construccion', function () {
+    return view('construccion');
+})->name('construccion');
+
+

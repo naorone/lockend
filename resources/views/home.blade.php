@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="bottom">
-        <div class="text-right container hidden-xs"><a id="scrollDownArrow" href="#"><i class="ion-ios7-arrow-thin-down"></i></a></div>
+        <div class="text-right container hidden-xs"><a id="scrollDownArrow"><i class="ion-ios7-arrow-thin-down"></i></a></div>
         <div class="signupForm">
             <div class="container">
                 <div class="row">
@@ -20,7 +20,7 @@
                         <b class="mb10">No vuelvas a preocuparte por no poder recibir tus pedidos en casa. <br/> Regístrate ahora.</b>
                     </div>
                     <div class="col-md-6 text-right">
-                        <form class="form-inline subscribe-form" id="subscription-form" role="form">
+                        <form class="form-inline subscribe-form" role="form">
                             <div class="form-group">
                                 <label class="sr-only" for="subscriber-name">Full Name</label>
                                 <input name="name" type="text" class="form-control" id="subscriber-name" placeholder="Your Name">
@@ -29,7 +29,10 @@
                                 <label class="sr-only" for="subscriber-email">Email address</label>
                                 <input name="email" type="email" class="form-control" id="subscriber-email" placeholder="Your Email">
                             </div>
-                            <input id="subscribe-button" type="submit" class="btn btn-primary" value="Get it!">
+
+                            <a class="aBot" href="{{URL::route('construccion')}}">¡Suscríbete ahora!</a>
+
+
                         </form>
                         <!-- SUCCESS OR ERROR MESSAGES -->
                         <div id="subscription-response"></div>
@@ -99,6 +102,30 @@
         <!-- /.container -->
     </div><!-- #story -->
 
+    <div class="bottom">
+        <div class="text-right container hidden-xs"><a id="scrollDownArrow"><i class="ion-ios7-arrow-thin-down"></i></a></div>
+        <div class="signupForm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 form-inline">
+                        <b class="mb10">Envianos cualquier pegunta o sugerencia</b>
+                        <div class="form-group">
+
+                            <input name="name" type="text" class="form-control" placeholder="Your Mail">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <form class="subscribe-form" role="form">
+                            <textarea cols="50" name="name"  class="form-control" id="subscriber-name" placeholder="Escribe aqui"></textarea>
+                            <a class="aBot" href="">Contacta</a>
+                        </form>
+                        <!-- SUCCESS OR ERROR MESSAGES -->
+                        <div id="subscription-response"></div>
+                    </div>
+                </div>
+            </div><!-- container -->
+        </div><!--/signupForm-->
+    </div>
 
 
 

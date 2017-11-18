@@ -9,8 +9,12 @@
             </form>
 
             <div class="login-help">
-                <a href="#">Olvidé mi contraseña</a>
+                <a href="">Olvidé mi contraseña</a>
             </div>
+            <div class="login-help">
+                <a href="/construccion">Crear nueva cuenta de usuario</a>
+            </div>
+
         </div>
     </div>
 </div>
